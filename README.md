@@ -23,7 +23,7 @@ This is a simple implementation of the popular word-guessing game, Wordle, using
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/wordle-game.git
+   git clone https://github.com/kompost/wordle-python-learning.git
    ```
 2. Navigate to the project directory:
    ```bash
