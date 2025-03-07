@@ -27,7 +27,7 @@ This is a simple implementation of the popular word-guessing game, Wordle, using
    ```
 2. Navigate to the project directory:
    ```bash
-   cd wordle-game
+   cd wordle-python-learning
    ```
 3. Run the game:
    ```bash
