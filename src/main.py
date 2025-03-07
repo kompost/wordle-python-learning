@@ -15,10 +15,11 @@ class WordleGame:
         self.create_widget()
 
     def create_widget(self):
+        '''Create the UI components'''
         self.ui = create_ui(self.root, self.check_guess, self.play_again)
 
     def check_guess(self, guess):
-
+        '''Check the guess and update the UI'''
         result = check_guess(guess, self.target_word)
         if len(result) < 5:
             return  
@@ -39,6 +40,7 @@ class WordleGame:
         self.ui.update_ui('playing', self.guesses)
 
     def play_again(self):
+        '''Reset the game'''
         self.number_of_guesses = 6
         self.target_word = select_random_word(load_words('./src/data/words.txt'))
         self.guesses = [[]]
